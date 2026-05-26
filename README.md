@@ -1,36 +1,3 @@
-# 🚀 Get Started
-
-**This repo is where attendees go to continue their learning after your session — and your Copilot agent will help you set it up.**
-
-### Step 1: Open your repo
-
-Open this repo in a **Codespace** (click the green **Code** button → **Create a Codespace**) — or clone it locally. Then open **GitHub Copilot Chat**.
-
-### Step 2: Add your content
-
-Give the agent something to work with. Drag files into the Explorer panel — session abstracts, outlines, screenshots, notes — and drop them in one of two places:
-
-| Where to put it | What goes there | Who sees it |
-|---|---|---|
-| **`_remove-before-publish/`** | Internal reference materials (abstracts, outlines, screenshots, planning docs) | **Copilot only** — never published |
-| **`/docs/`, `/src/`, or repo root** | Lab instructions, demo code, sample data, getting-started guides | **Attendees** — published with the repo |
-
-> 💡 Not sure? Start by dropping your session abstract or outline into `_remove-before-publish/`. The agent will figure out what to do with it.
-
-### Step 3: Ask the Agent
-
-Once your content is in the repo, use these three phrases with Copilot to build out your session repo:
-
-| Phrase to use with Copilot | What it does | When to run it |
-|---|---|---|
-| **"Help me get started"** | Sets up session title, description, outcomes, and owners | After you've added your session abstract or outline to the repo |
-| **"Help me refine content"** | Organizes your session content into the repo | Each time you add or update content |
-| **"Help me finalize"** | Final review, cleanup, and publication prep | When you're ready to publish |
-
-> 💡 **These three phrases are just the starting point.** Copilot can do much more — try asking it to brainstorm next steps for attendees, generate code samples, or build out your repo structure. Don't be afraid to put it in plan mode and ask for what you need.
-
----
-
 <a name="start-building"></a>
 <br>
 <p align="center">
@@ -39,33 +6,48 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 OD820: Designing Reliable Multi‑Agent Apps with Azure Cosmos DB
+
+<p align="center">
+<img src="img/session-title.png" alt="Designing Reliable Multi-Agent Apps with Azure Cosmos DB — Aayush Kataria, Software Engineer 2, Azure Cosmos DB; Justine Cocchi, Principal Program Manager, Azure Cosmos DB" width="1000"/>
+</p>
 
 ### Session Description
 
-*Add Session Description*
+Learn how to design and build reliable multi-agent applications backed by Azure Cosmos DB. This session walks through a travel-planning assistant built with Python, LangGraph, and Azure OpenAI, with specialized agents coordinated by an orchestrator and persistent agent memory stored in Azure Cosmos DB.
+
+### 🚀 Follow the Demo / Workshop
+
+> **All demo code, step-by-step instructions, and deployment guidance for this session live in the workshop repo:**
+>
+> 👉 **[AzureCosmosDB/travel-multi-agent-workshop (branch: `agent_memory_toolkit`)](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit)**
+>
+> Head over there to build the solution from scratch (`01_exercises/`) or deploy the complete solution (`02_completed/`).
 
 ### 🏫 Getting started in a guided session
 
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
+To follow along during the recorded session:
+- Open the workshop repo: [travel-multi-agent-workshop @ `agent_memory_toolkit`](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit)
+- Navigate to the `01_exercises/` folder and follow the modules in order
+- Use the demo as a reference while watching the session recording
 
 ### 🏠 Getting started in your own environment
 
-If you're following these steps at your own pace:
-- Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
+If you're following at your own pace:
+- Clone the workshop repo: `git clone -b agent_memory_toolkit https://github.com/AzureCosmosDB/travel-multi-agent-workshop.git`
+- Follow the prerequisites and `azd up` deployment steps in that repo's README
+- Work through `01_exercises/` to build the solution, or explore `02_completed/` for the finished app
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Design multi-agent architectures with specialized agents and an orchestrator coordinator
+- Build agents using LangGraph and Azure OpenAI
+- Add persistent agent memory backed by Azure Cosmos DB using the `agent_memory_toolkit`
+- Deploy and operate a multi-agent application on Azure
+
+The slide deck is available here: [OD820 – Designing Reliable Multi‑Agent Apps with Azure](Designing%20Reliable%20Multi%E2%80%91Agent%20Apps%20with%20Azure.pptx)
 
 ### 💬 Keep Learning with Copilot
 
@@ -73,20 +55,30 @@ Try these prompts with GitHub Copilot to explore the topics from this session. O
 
 Use these as a starting point — or write your own!
 
-<!-- Prompts will be tailored to this session's content during repo setup. -->
+<!-- Prompts tailored to this session's content. -->
 
-> *Prompts coming soon — check back after the session content is finalized.*
+- *"Explain how a LangGraph orchestrator coordinates multiple specialized agents (e.g., hotel, dining, activities) and route a sample user request through them step by step."*
+- *"Show me how to model agent memory in Azure Cosmos DB. What should I use as the partition key for per-user, per-thread memory records, and why?"*
+- *"What are the trade-offs between summarizing chat history periodically (e.g., every 10 turns) vs. storing every message verbatim for agent memory? When would I pick each?"*
+- *"Walk me through how to add a new specialized agent to the `travel-multi-agent-workshop` (e.g., a flight-booking agent) — what files do I touch, and how do I register it with the orchestrator?"*
+- *"How do I use Azure OpenAI with LangGraph in Python? Show me a minimal example that calls a chat completion and uses a tool."*
+- *"What Azure Cosmos DB features (RU provisioning, indexing policy, TTL, vector indexing) should I consider for an agent-memory workload, and how do I configure them?"*
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. Azure Cosmos DB
+1. ComsosDB Agent Memory Toolkit
+1. Azure OpenAI
+1. LangGraph
+1. Python / FastAPI
+1. Angular
+1. Azure Developer CLI (`azd`)
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
+| [travel-multi-agent-workshop (`agent_memory_toolkit`)](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit) | The full demo and workshop for this session — exercises, completed solution, and deployment instructions |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
 
 
@@ -108,19 +100,8 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
-<table>
-<tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
-    </td>
-</tr></table>
+- [Aayush Kataria](https://github.com/aayush3011)
+- [Justine Cocchi](https://github.com/jcocchi)
 
 ## Contributing
 
