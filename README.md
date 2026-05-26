@@ -47,6 +47,8 @@ By the end of this session, you will be able to:
 - Add persistent agent memory backed by Azure Cosmos DB using the `agent_memory_toolkit`
 - Deploy and operate a multi-agent application on Azure
 
+The slide deck is available here: [OD820 – Designing Reliable Multi‑Agent Apps with Azure](Designing%20Reliable%20Multi%E2%80%91Agent%20Apps%20with%20Azure.pptx)
+
 ### 💬 Keep Learning with Copilot
 
 Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in VS Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
