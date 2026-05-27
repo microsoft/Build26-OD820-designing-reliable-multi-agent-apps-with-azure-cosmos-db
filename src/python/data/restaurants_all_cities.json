@@ -1,0 +1,170 @@
+[
+  {
+    "id": "restaurant_hong_kong_0001",
+    "geoScopeId": "hong_kong",
+    "type": "restaurant",
+    "name": "Lung King Heen",
+    "description": "Lung King Heen is a Michelin three-star Cantonese restaurant located in the Four Seasons Hotel Hong Kong, renowned for its exquisite seafood and dim sum crafted by Chef Chan Yan Tak. It is the first Chinese restaurant in the world to receive three Michelin stars, celebrated for its refined traditional flavors and elegant presentation.",
+    "neighborhood": "various",
+    "rating": 4.6,
+    "priceTier": "moderate",
+    "tags": [
+      "wine_bar",
+      "casual",
+      "fine_dining"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "accessible-parking",
+      "step-free-entrance",
+      "elevator-access"
+    ],
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "embedding": null,
+    "dietary": [
+      "seafood"
+    ]
+  },
+  {
+    "id": "restaurant_hong_kong_0002",
+    "geoScopeId": "hong_kong",
+    "type": "restaurant",
+    "name": "Tsim Chai Kee",
+    "description": "Tsim Chai Kee is a popular Hong Kong noodle restaurant known for its oversized wontons, beef slices, and fish balls served in a flavorful broth. Renowned for its affordable prices and generous portions, it is a favorite among locals seeking traditional Cantonese-style wonton noodles.",
+    "neighborhood": "various",
+    "rating": 4.9,
+    "priceTier": "luxury",
+    "tags": [
+      "wine_bar",
+      "fine_dining",
+      "modern"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "step-free-entrance"
+    ],
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "embedding": null,
+    "dietary": [
+      "gluten-free",
+      "seafood"
+    ]
+  },
+  {
+    "id": "restaurant_hong_kong_0003",
+    "geoScopeId": "hong_kong",
+    "type": "restaurant",
+    "name": "Tim Ho Wan",
+    "description": "Tim Ho Wan is a Michelin-starred dim sum restaurant originating in Hong Kong, renowned for its affordable, high-quality Cantonese dim sum dishes such as baked buns with BBQ pork. It gained fame as one of the world's cheapest Michelin-starred eateries, emphasizing traditional flavors with a modern, casual dining approach.",
+    "neighborhood": "various",
+    "rating": 4.7,
+    "priceTier": "budget",
+    "tags": [
+      "pizzeria",
+      "casual",
+      "wine_bar"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "accessible-parking",
+      "step-free-entrance"
+    ],
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "embedding": null,
+    "dietary": [
+      "seafood",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "restaurant_hong_kong_0004",
+    "geoScopeId": "hong_kong",
+    "type": "restaurant",
+    "name": "Bo Innovation",
+    "description": "Bo Innovation is a Michelin three-star restaurant in Hong Kong renowned for its avant-garde approach to traditional Cantonese cuisine, blending molecular gastronomy techniques with bold, innovative flavors crafted by chef Alvin Leung.",
+    "neighborhood": "various",
+    "rating": 4.9,
+    "priceTier": "budget",
+    "tags": [
+      "casual",
+      "fine_dining",
+      "japanese"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "elevator-access",
+      "accessible-restroom"
+    ],
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "embedding": null,
+    "dietary": [
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "restaurant_hong_kong_0005",
+    "geoScopeId": "hong_kong",
+    "type": "restaurant",
+    "name": "Amber",
+    "description": "Amber is a Michelin-starred contemporary French restaurant located in The Landmark Mandarin Oriental, Hong Kong, renowned for its innovative use of seasonal ingredients and modern culinary techniques under Chef Richard Ekkebus. It is celebrated for its artistic plating and a progressive tasting menu that blends French tradition with Asian influences.",
+    "neighborhood": "various",
+    "rating": 4.4,
+    "priceTier": "moderate",
+    "tags": [
+      "seafood",
+      "steakhouse",
+      "japanese"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "accessible-restroom",
+      "accessible-parking"
+    ],
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "embedding": null,
+    "dietary": [
+      "seafood",
+      "gluten-free"
+    ]
+  }
+]
