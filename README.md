@@ -16,6 +16,25 @@
 
 Learn how to design and build reliable multi-agent applications backed by Azure Cosmos DB. This session walks through a travel-planning assistant built with Python, LangGraph, and Azure OpenAI, with specialized agents coordinated by an orchestrator and persistent agent memory stored in Azure Cosmos DB.
 
+### ▶️ Watch the Session
+
+> **Session recording and slides:**
+>
+> 👉 **[OD820 – Designing Reliable Multi‑Agent Apps with Azure Cosmos DB](https://build.microsoft.com/sessions/OD820)**
+> <!-- TODO: Replace with actual Build session page URL when available -->
+
+### 📂 What's in This Repo
+
+This repo contains a **code snapshot** from the maintained workshop repository, demonstrating the session's key concepts. The [`src/`](src/) directory includes:
+
+- **Multi-agent orchestration code** — LangGraph agents with FastAPI
+- **Agent prompts** — `.prompty` files for each specialized agent
+- **Sample data** — Example JSON records (5 per category) for hotels, restaurants, activities, users, and trips (`embedding` fields are set to `null` in this snapshot)
+- **Infrastructure-as-code** — Bicep templates for deploying Azure Cosmos DB, OpenAI, and supporting services
+- **Azure Developer CLI config** — `azure.yaml` for automated deployment
+
+> 📌 This is a point-in-time snapshot. For the **full, maintained source** (including the Angular frontend, MCP server, workshop modules, and evaluation framework), see the [workshop repo](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit).
+
 ### 🚀 Follow the Demo / Workshop
 
 > **All demo code, step-by-step instructions, and deployment guidance for this session live in the workshop repo:**
@@ -47,7 +66,19 @@ By the end of this session, you will be able to:
 - Add persistent agent memory backed by Azure Cosmos DB using the `agent_memory_toolkit`
 - Deploy and operate a multi-agent application on Azure
 
-The slide deck is available here: [OD820 – Designing Reliable Multi‑Agent Apps with Azure](Designing%20Reliable%20Multi%E2%80%91Agent%20Apps%20with%20Azure.pptx)
+### 📚 Resources and Next Steps
+
+| Resource | Description |
+|:---------|:------------|
+| [travel-multi-agent-workshop (`agent_memory_toolkit`)](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit) | Full demo and workshop — exercises, completed solution, and deployment instructions |
+| [AI Agents and Solutions with Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/ai-agents) | Overview of AI agent architectures and how Cosmos DB supports agent memory |
+| [Agent Memories in Azure Cosmos DB for NoSQL](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/agentic-memories) | Design patterns for modeling agent memory, partitioning, and vector indexing |
+| [AI Integrations for Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/integrations) | Integrations with LangChain, LangGraph, Semantic Kernel, and LlamaIndex |
+| [Multi-Agent Workflow Architecture](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/idea/multiple-agent-workflow-automation) | Azure Architecture Center reference for multi-agent orchestration |
+| [LangGraph with the Agent Service](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/langchain-agents) | Using LangGraph with Azure AI Foundry for agent orchestration |
+| [Get started with LangChain and LangGraph](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/langchain) | Getting started guide for LangChain/LangGraph with Azure AI Foundry |
+| [Azure Cosmos DB Agent Kit](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/agent-kit) | Open-source skills for AI coding assistants working with Cosmos DB |
+| [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
 
 ### 💬 Keep Learning with Copilot
 
@@ -67,19 +98,12 @@ Use these as a starting point — or write your own!
 ### 💻 Technologies Used
 
 1. Azure Cosmos DB
-1. ComsosDB Agent Memory Toolkit
+1. CosmosDB Agent Memory Toolkit
 1. Azure OpenAI
 1. LangGraph
 1. Python / FastAPI
 1. Angular
 1. Azure Developer CLI (`azd`)
-
-### 📚 Resources and Next Steps
-
-| Resource | Description |
-|:---------|:------------|
-| [travel-multi-agent-workshop (`agent_memory_toolkit`)](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit) | The full demo and workshop for this session — exercises, completed solution, and deployment instructions |
-| [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
 
 
 ### 🌟 Microsoft Learn MCP Server

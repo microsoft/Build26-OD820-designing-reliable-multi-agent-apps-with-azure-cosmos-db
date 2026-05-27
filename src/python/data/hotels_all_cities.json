@@ -1,0 +1,150 @@
+[
+  {
+    "id": "hotel_paris_0001",
+    "geoScopeId": "paris",
+    "type": "hotel",
+    "name": "H\u00f4tel Ritz Paris",
+    "description": "H\u00f4tel Ritz Paris, located in Place Vend\u00f4me, is a historic luxury hotel renowned for its opulent Belle \u00c9poque interiors and association with iconic figures like Coco Chanel and Ernest Hemingway. It features Michelin-starred dining at the restaurant L\u2019Espadon and a renowned spa, blending timeless elegance with modern luxury.",
+    "neighborhood": "Place Vend\u00f4me/1st",
+    "rating": 4.9,
+    "priceTier": "luxury",
+    "tags": [
+      "historic",
+      "luxury",
+      "spa",
+      "michelin_restaurant"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "step-free-entrance"
+    ],
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    },
+    "embedding": null
+  },
+  {
+    "id": "hotel_paris_0002",
+    "geoScopeId": "paris",
+    "type": "hotel",
+    "name": "Four Seasons Hotel George V, Paris",
+    "description": "Four Seasons Hotel George V, Paris is a luxury hotel renowned for its Art Deco design, exceptional service, and three Michelin-starred restaurants, including Le Cinq. Located just steps from the Champs-\u00c9lys\u00e9es, it features lavish rooms, a spa, and stunning floral arrangements by Jeff Leatham.",
+    "neighborhood": "Golden Triangle/8th",
+    "rating": 4.9,
+    "priceTier": "luxury",
+    "tags": [
+      "luxury",
+      "spa",
+      "michelin_restaurant"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "accessible-parking",
+      "service-animal-friendly"
+    ],
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    },
+    "embedding": null
+  },
+  {
+    "id": "hotel_paris_0003",
+    "geoScopeId": "paris",
+    "type": "hotel",
+    "name": "H\u00f4tel de Crillon, A Rosewood Hotel",
+    "description": "H\u00f4tel de Crillon, A Rosewood Hotel, is a historic luxury hotel located on Place de la Concorde in Paris, renowned for its opulent 18th-century architecture and lavish interiors. It features Michelin-starred dining by chef Christopher Hache and offers exclusive suites with views of the Eiffel Tower and the Tuileries Garden. The hotel blends Parisian heritage with contemporary elegance, making it a landmark of refined hospitality.",
+    "neighborhood": "Place de la Concorde/8th",
+    "rating": 4.8,
+    "priceTier": "luxury",
+    "tags": [
+      "historic",
+      "spa",
+      "fine_dining"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "accessible-restroom"
+    ],
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    },
+    "embedding": null
+  },
+  {
+    "id": "hotel_paris_0004",
+    "geoScopeId": "paris",
+    "type": "hotel",
+    "name": "Le Bristol Paris",
+    "description": "Le Bristol Paris is a historic luxury hotel located on Rue du Faubourg Saint-Honor\u00e9, renowned for its elegant 18th-century Parisian decor, a three-Michelin-starred restaurant (Epicure), and a lush rooftop garden with views of the Eiffel Tower. It is celebrated for exceptional French haute cuisine and impeccable personalized service.",
+    "neighborhood": "Rue du Faubourg Saint\u2011Honor\u00e9/8th",
+    "rating": 4.8,
+    "priceTier": "luxury",
+    "tags": [
+      "michelin_restaurant",
+      "spa",
+      "rooftop_pool"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "service-animal-friendly"
+    ],
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    },
+    "embedding": null
+  },
+  {
+    "id": "hotel_paris_0005",
+    "geoScopeId": "paris",
+    "type": "hotel",
+    "name": "Shangri\u2011La Paris",
+    "description": "Shangri-La Paris is a luxury palace hotel housed in a former royal residence, blending French classical architecture with Asian-inspired decor. It features Michelin-starred dining by chef Christophe Moret, including the renowned Shang Palace specializing in Cantonese cuisine. The hotel offers panoramic views of the Eiffel Tower and the Seine River.",
+    "neighborhood": "16th/Trocad\u00e9ro",
+    "rating": 4.7,
+    "priceTier": "luxury",
+    "tags": [
+      "views",
+      "spa",
+      "fine_dining"
+    ],
+    "accessibility": [
+      "wheelchair-friendly",
+      "service-animal-friendly",
+      "step-free-entrance"
+    ],
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    },
+    "embedding": null
+  }
+]
