@@ -4,6 +4,9 @@ Template files will not be tracked by git.
 *.bak
 *.tmp
 
+# Large binary files (link to session page instead)
+*.pptx
+
 # Source materials folder — contents excluded, README tracked
 _remove-before-publish/*
 !_remove-before-publish/README.md
