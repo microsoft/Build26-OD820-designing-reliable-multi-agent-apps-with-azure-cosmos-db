@@ -23,18 +23,6 @@ Learn how to design and build reliable multi-agent applications backed by Azure 
 > 👉 **[OD820 – Designing Reliable Multi‑Agent Apps with Azure Cosmos DB](https://build.microsoft.com/sessions/OD820)**
 > <!-- TODO: Replace with actual Build session page URL when available -->
 
-### 📂 What's in This Repo
-
-This repo contains a **code snapshot** from the maintained workshop repository, demonstrating the session's key concepts. The [`src/`](src/) directory includes:
-
-- **Multi-agent orchestration code** — LangGraph agents with FastAPI
-- **Agent prompts** — `.prompty` files for each specialized agent
-- **Sample data** — Example JSON records (5 per category) for hotels, restaurants, activities, users, and trips (`embedding` fields are set to `null` in this snapshot)
-- **Infrastructure-as-code** — Bicep templates for deploying Azure Cosmos DB, OpenAI, and supporting services
-- **Azure Developer CLI config** — `azure.yaml` for automated deployment
-
-> 📌 This is a point-in-time snapshot. For the **full, maintained source** (including the Angular frontend, MCP server, workshop modules, and evaluation framework), see the [workshop repo](https://github.com/AzureCosmosDB/travel-multi-agent-workshop/tree/agent_memory_toolkit).
-
 ### 🚀 Follow the Demo / Workshop
 
 > **All demo code, step-by-step instructions, and deployment guidance for this session live in the workshop repo:**
