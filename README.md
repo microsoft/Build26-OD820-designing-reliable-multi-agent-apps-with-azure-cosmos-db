@@ -67,6 +67,7 @@ By the end of this session, you will be able to:
 | [Get started with LangChain and LangGraph](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/langchain) | Getting started guide for LangChain/LangGraph with Azure AI Foundry |
 | [Azure Cosmos DB Agent Kit](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/agent-kit) | Open-source skills for AI coding assistants working with Cosmos DB |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [Watch the session recording](https://aka.ms/build26/OD820/youtube) | Watch the recorded Microsoft Build session. |
 
 ### 💬 Keep Learning with Copilot
 
